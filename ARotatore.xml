@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>https://static.vecteezy.com/system/resources/thumbnails/028/626/672/small_2x/hd-image-ai-generative-free-photo.jpeg</ImageUrl>
+		<Keyword>technology ,c,C#</Keyword>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText> First IMG</AlternateText>
+		<Impression>1</Impression>
+	</Ad>
+
+		<Ad>
+		<ImageUrl>https://static.vecteezy.com/system/resources/thumbnails/021/746/785/small/holding-a-tree-in-a-ball-ecology-and-environment-concept-with-generative-ai-photo.jpg</ImageUrl>
+		<Keyword>technology ,c,C#</Keyword>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText> Second IMG</AlternateText>
+		<Impression>1</Impression>
+
+
+	</Ad>
+</Advertisements>

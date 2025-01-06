@@ -25,10 +25,11 @@
             margin-left:600px;
             margin-top:100px;
             border:solid red;
+            align-items:center;
         }
         .login {
             display:flex;
-            max-width:20px;
+            max-width:200px;
             padding-left:10px;
             background-color:aqua;
         }
