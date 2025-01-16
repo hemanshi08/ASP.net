@@ -74,8 +74,11 @@
     <Content Include="Assignments\Assignment_1\navbar.aspx" />
     <Content Include="Assignments\Assignment_1\TemperatureConversion.aspx" />
     <Content Include="Assignments\Assignment_1\Welcome_message.aspx" />
+    <Content Include="Assignments\Assignment_2\Q2.aspx" />
+    <Content Include="Assignments\Assignment_2\q3.aspx" />
+    <Content Include="Assignments\Assignment_3\MultiViewControl.aspx" />
     <Content Include="Assignments\Assignment_website.aspx" />
-    <Content Include="pexels-anjana-c-169994-674010.jpg" />
+    <Content Include="Example_master.aspx" />
     <Content Include="sum_of_two_no.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -124,6 +127,27 @@
     <Compile Include="Assignments\Assignment_1\Welcome_message.aspx.designer.cs">
       <DependentUpon>Welcome_message.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Assignments\Assignment_2\Q2.aspx.cs">
+      <DependentUpon>Q2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignments\Assignment_2\Q2.aspx.designer.cs">
+      <DependentUpon>Q2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignments\Assignment_2\q3.aspx.cs">
+      <DependentUpon>q3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignments\Assignment_2\q3.aspx.designer.cs">
+      <DependentUpon>q3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignments\Assignment_3\MultiViewControl.aspx.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignments\Assignment_3\MultiViewControl.aspx.designer.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Assignments\Assignment_website.aspx.cs">
       <DependentUpon>Assignment_website.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,7 +155,21 @@
     <Compile Include="Assignments\Assignment_website.aspx.designer.cs">
       <DependentUpon>Assignment_website.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Example_master.aspx.cs">
+      <DependentUpon>Example_master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Example_master.aspx.designer.cs">
+      <DependentUpon>Example_master.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="sum_of_two_no.aspx.cs">
       <DependentUpon>sum_of_two_no.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
