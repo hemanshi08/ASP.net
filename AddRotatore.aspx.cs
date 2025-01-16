@@ -14,11 +14,16 @@ namespace WebApplication1
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        //protected void Button1_Click(object sender, EventArgs e)
+        //{
+        //    string filename = FileUpload1.FileName;
+        //    string path = Server.MapPath("FILES/")+filename;
+        //   Label1.Text = "file upload ";
+        //}
+
+        protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
         {
-            string filename = FileUpload1.FileName;
-            string path = Server.MapPath("FILES/")+filename;
-           Label1.Text = "file upload ";
+
         }
     }
 }

@@ -6,23 +6,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+    body {
+        background-color: #252e3d;
+    }
+    h3 {
+        color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .button {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/ARotatore.xml" ImageUrlField="" />
+        <h3>22SOECE11020_Hemanshi Garnara</h3>
+        <h3>Roll No: 20</h3>
+        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/ARotatore.xml" ImageUrlField="" OnAdCreated="AdRotator1_AdCreated" />
+                <asp:AdRotator ID="AdRotator2" runat="server" AdvertisementFile="~/ARotatore.xml" ImageUrlField="" OnAdCreated="AdRotator1_AdCreated" />
+
         <p>
-            <asp:FileUpload ID="FileUpload1" runat="server" />
-        </p>
-        <p>
-            <asp:Button ID="Button1" runat="server" Text="Upload File" OnClick="Button1_Click" />
-        </p>
-        <p>
-            <asp:Label ID="Label1" runat="server" ></asp:Label>
-        </p>
-        <p>
-            &nbsp;</p>
-    </form>
+                </form>
 </body>
 </html>
